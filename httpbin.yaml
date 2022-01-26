@@ -48,6 +48,7 @@ spec:
   template:
     metadata:
       labels:
+        sidecar.istio.io/inject: "true"
         app: httpbin
         version: v1
     spec:
